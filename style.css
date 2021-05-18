@@ -44,3 +44,41 @@ strong {
 a {
   color: #8C4CF7;
 }
+
+.header {
+  background: #073349;
+  overflow: auto;
+}
+
+.header .logo {
+  float: left;
+}
+
+.header .navigation {
+  float: left;
+}
+
+.header .navigation {
+  float: left;
+  list-style: none;
+  padding: 0;
+  margin: 30px 0 0 -50px;
+}
+
+.header .navigation li {
+  float: left;
+  padding: 20px;
+}
+
+.header .navigation li a {
+  color: #f5eee0;
+  font-weight: bold;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.header .navigation li a.active,
+.header .navigation li a.hover {
+  border-bottom: 2px solid #8C4CF7;
+}
+
