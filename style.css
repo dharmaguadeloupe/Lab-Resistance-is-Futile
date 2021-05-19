@@ -45,8 +45,9 @@ a {
   color: #8C4CF7;
 }
 
+/*Header Styles*/
 .header {
-  background: #073349;
+  background: #073249;
   overflow: auto;
 }
 
@@ -82,3 +83,45 @@ a {
   border-bottom: 2px solid #8C4CF7;
 }
 
+a.button {
+  background: #ac43ec;
+  border-radius: 4px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  padding: 8px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container {
+  margin: auto;
+  overflow: auto;
+  width: 900px;
+}
+
+/*Hero Styles*/
+.hero {
+  background: #2e373c url(./images/hero-bg.jpg) center center no-repeat;
+  color: #f5eee0;
+  padding: 80px 20px 60px 20px;
+}
+
+.hero h1 {
+  background: #212a2d;
+  border-left: 6px solid #ac43ec;
+  border-radius: 0 4px 4px 0;
+  color: #ffffff;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 14px 25px;
+}
+
+.hero p {
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 700px;
+}
